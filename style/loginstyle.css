@@ -1,0 +1,70 @@
+body{
+    background: url(/img/Netflix_back.jpg);
+}
+
+.box {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 400px;
+    height: 500px;
+    padding: 40px;
+    position: fixed;
+    top: 20%;
+    left: 30%;
+    background: black;
+    text-align: center;
+    transition: 0.25s;
+    background: linear-gradient(rgba(0,0,0,.75), rgba(0,0,0,.75)100%);
+}
+.box input[type="text"],
+.box input[type="password"] {
+    border: 0;
+    background: #f3f3f3;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #0f0f0f;
+    padding: 15px 100px;
+    width: 100%;
+    outline: none;
+    color: rgb(19, 17, 17);
+    border-radius: 4px;
+    transition: 0.25s
+}
+.box h1 {
+    color: white;
+    font-weight: 500
+}
+
+.box input[type="submit"] {
+    border: 0;
+    background: red;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #fc0d05;
+    padding: 15px 135px;
+    outline: none;
+    color: white;
+    border-radius: 4px;
+    transition: 0.25s;
+    cursor: pointer
+}
+
+.remember{
+    color: ivory;
+    justify-content: left;
+}
+
+.need_help{
+    color: ivory;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
